@@ -25,6 +25,7 @@ const Carousel = () => {
     }, 2000)
     return () => {
       clearInterval(sliderId)
+      //clear the interval to avoid interruption
     }
   }, [currentPerson])
 
